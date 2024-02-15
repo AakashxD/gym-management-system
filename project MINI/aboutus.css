@@ -1,0 +1,35 @@
+body {
+    background-image: url("");
+    background-size: contain;
+    font-family: 'Arial', sans-serif;
+    
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #777;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="buy.css">
+    <title>Gym Subscription Payment</title>
+</head>
+
+<body>
+    <section class="payment-card">
+        <h1>Subscription Payment</h1>
+        <div class="card">
+            <div class="card-header">
+                <h2>Card Details</h2>
+            </div>
+            <div class="card-body">
+                <form action="process_payment.php" method="post">
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="**** **** **** ****" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="expiry-date">Expiry Date</label>
+                        <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" name="cvv" placeholder="***" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="card-holder">Cardholder Name</label>
+                        <input type="text" id="card-holder" name="card-holder" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Pay Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>

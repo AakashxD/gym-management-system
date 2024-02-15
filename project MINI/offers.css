@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.offer {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #008000; /* Green color for prices */
+}
+
+.description {
+    color: #555;
+}
+
+.coupon {
+    color: #ff4500; /* Red-Orange color for coupon code */
+    font-weight: bold;
+}
+
+form {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #777;
+}
